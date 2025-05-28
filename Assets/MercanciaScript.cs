@@ -4,15 +4,14 @@ using UnityEngine;
 
 public class MercanciaScript : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public int precio;
 
-    // Update is called once per frame
-    void Update()
+    private void OnCollisionEnter(Collision collision)
     {
-        
+        Debug.Log(collision.gameObject.name);
+        if(collision.gameObject.name == "Player")
+        {
+            Destroy(gameObject);
+        }
     }
 }
