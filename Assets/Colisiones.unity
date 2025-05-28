@@ -132,7 +132,7 @@ PrefabInstance:
     - target: {fileID: 8216810002292481874, guid: 70a91ddf455e97e4ea42d4e69e4986e0,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.48
+      value: 0.07
       objectReference: {fileID: 0}
     - target: {fileID: 8216810002292481874, guid: 70a91ddf455e97e4ea42d4e69e4986e0,
         type: 3}
@@ -179,7 +179,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6848109311981040929, guid: 70a91ddf455e97e4ea42d4e69e4986e0, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 70a91ddf455e97e4ea42d4e69e4986e0, type: 3}
 --- !u!1 &895852245
 GameObject:
@@ -257,7 +258,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 895852245}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalPosition: {x: -0.88, y: 2.53, z: -9.67}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -332,6 +333,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &1345783928 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4237976526884716818, guid: 9361ce0f63fe96c48a19034b48d0d742,
+    type: 3}
+  m_PrefabInstance: {fileID: 1939245072}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1345783931
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1345783928}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 851939a360b52be45912261cf903e186, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1939245072
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -347,7 +366,7 @@ PrefabInstance:
     - target: {fileID: 1002847060727778449, guid: 9361ce0f63fe96c48a19034b48d0d742,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 4.73
       objectReference: {fileID: 0}
     - target: {fileID: 1002847060727778449, guid: 9361ce0f63fe96c48a19034b48d0d742,
         type: 3}
@@ -398,6 +417,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: BarrilPrefabs
+      objectReference: {fileID: 0}
+    - target: {fileID: 7968314632258280310, guid: 9361ce0f63fe96c48a19034b48d0d742,
+        type: 3}
+      propertyPath: m_Mass
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7968314632258280310, guid: 9361ce0f63fe96c48a19034b48d0d742,
+        type: 3}
+      propertyPath: m_Drag
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9361ce0f63fe96c48a19034b48d0d742, type: 3}
