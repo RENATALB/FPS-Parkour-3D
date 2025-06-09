@@ -17,8 +17,8 @@ public class UIManager : MonoBehaviour
     {
         DineroTXT.text = "$" + moneyAmount;
     }
-    public void UpdateHealthText(string moneyAmount)
+    public void UpdateHealthText(string healthAmount)
     {
-        HealthTXT.text = "HP " + moneyAmount;
+        HealthTXT.text = "HP " + healthAmount;
     }
 }
