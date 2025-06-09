@@ -27,9 +27,4 @@ public class HealthManager : MonoBehaviour
         healthPoints += damageAmount;
         uimanager.UpdateHealthText(healthPoints.ToString());
     }
-
-    void GameOverActions()
-    {
-
-    }
 }
