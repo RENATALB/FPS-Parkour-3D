@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 170076734}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -425,6 +425,7 @@ GameObject:
   - component: {fileID: 227749297}
   - component: {fileID: 227749296}
   - component: {fileID: 227749295}
+  - component: {fileID: 227749298}
   m_Layer: 5
   m_Name: HealthTXT
   m_TagString: Untagged
@@ -569,6 +570,20 @@ RectTransform:
   m_AnchoredPosition: {x: 281.7, y: 176}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &227749298
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 227749294}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ad2740f58ec9e142a8c3efaaeb8002c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  healthPoints: 100
+  uimanager: {fileID: 0}
 --- !u!1 &263363625
 GameObject:
   m_ObjectHideFlags: 0
@@ -2009,7 +2024,7 @@ PrefabInstance:
     - target: {fileID: 4925709135592159070, guid: 4b4ec471a37ad3c49928f308cc4bb125,
         type: 3}
       propertyPath: damagePoints
-      value: 5
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4b4ec471a37ad3c49928f308cc4bb125, type: 3}
