@@ -27,9 +27,4 @@ public class MoneyManager : MonoBehaviour
             return true;
         }
     }
-    // Esto no se si esta bien o mal
-    public void Update()
-    {
-        cartelDinero.text = "Dinero actual: $" + money;
-    }
 }

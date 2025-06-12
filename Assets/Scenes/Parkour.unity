@@ -583,7 +583,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   healthPoints: 100
-  uimanager: {fileID: 0}
+  uimanager: {fileID: 115239467}
 --- !u!1 &263363625
 GameObject:
   m_ObjectHideFlags: 0
@@ -1042,11 +1042,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 556819734}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 67b85538feaa71d438962182572bc327, type: 3}
+  m_Script: {fileID: 11500000, guid: 19c025d43391e6d48b4af6e59fc8e350, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DineroTXT: {fileID: 0}
-  HealthTXT: {fileID: 0}
+  money: 100
+  cartelDinero: {fileID: 556819736}
 --- !u!1 &596322751
 GameObject:
   m_ObjectHideFlags: 0
@@ -1618,8 +1618,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5ad2740f58ec9e142a8c3efaaeb8002c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthPoints: 0
-  uimanager: {fileID: 0}
+  healthPoints: 100
+  uimanager: {fileID: 115239467}
 --- !u!114 &1788283396
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1647,6 +1647,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   money: 100
   cartelDinero: {fileID: 556819736}
+--- !u!1 &1870626920 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4640121371783783267, guid: 4b4ec471a37ad3c49928f308cc4bb125,
+    type: 3}
+  m_PrefabInstance: {fileID: 4637021422475942257}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1870626921
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1870626920}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18c8c57baa0a32e468ea34bd8f7bc9d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damagePoints: 10
+  healthManager: {fileID: 0}
 --- !u!1 &1924892733
 GameObject:
   m_ObjectHideFlags: 0
