@@ -16,7 +16,7 @@ public class HurtingObject : MonoBehaviour
     {
         if (collision.gameObject.name == "Player")
         {
-            // star damagePoints a la salud del player
+            // restar damagePoints a la salud del player
             healthManager.UpdateHealth(-damagePoints);
         }
     }

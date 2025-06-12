@@ -8,11 +8,16 @@ public class MoneyManager : MonoBehaviour
     public float money;
     public TextMeshProUGUI cartelDinero;
 
-    public bool UpdateMoney(float amount)
+    private void Start()
+    {
+        cartelDinero.text = "Dinero actual: $" + money;
+    }
+    
+    public bool UpdateMoney (float amount)
     {
         if (money + amount < 0)
         {
-            Debug.Log("No te alcanza");
+            cartelDinero.text = "No te alcanza";
             return false;
         }
         else
@@ -22,7 +27,7 @@ public class MoneyManager : MonoBehaviour
             return true;
         }
     }
-
+    // Esto no se si esta bien o mal
     public void Update()
     {
         cartelDinero.text = "Dinero actual: $" + money;

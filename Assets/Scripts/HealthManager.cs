@@ -10,7 +10,6 @@ public class HealthManager : MonoBehaviour
 
     private void Start()
     {
-        uimanager = FindObjectOfType<UIManager>();
         uimanager.UpdateHealthText(healthPoints.ToString());
     }
 
@@ -19,8 +18,6 @@ public class HealthManager : MonoBehaviour
         if (healthPoints + damageAmount <= 0)
         {
             Debug.Log("Game over");
-            healthPoints = 0;
-            uimanager.UpdateHealthText(healthPoints.ToString());
             return;
         }
 
